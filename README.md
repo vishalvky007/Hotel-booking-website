@@ -56,3 +56,12 @@
 - Additional Pages
     - Review & ratings
     - Shutdown
+
+## Pre-requisites
+
+### Front-end - Homepage 
+- Font Family: Merienda (weightL 400 & 700), Poppins (weight: 400, 500, & 600)
+- SwiperJS for Carousels
+- Bootstrap Icons
+- Google Map Embed
+- Custom Colors: #2ec1ac & #279e8c
