@@ -60,7 +60,7 @@
 ## Pre-requisites
 
 ### Front-end - Homepage 
-- Font Family: Merienda (weightL 400 & 700), Poppins (weight: 400, 500, & 600)
+- Font Family: Merienda (weight: 400 & 700), Poppins (weight: 400, 500, & 600)
 - SwiperJS for Carousels
 - Bootstrap Icons
 - Google Map Embed
