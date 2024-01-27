@@ -27,6 +27,20 @@
       margin: 0;
     }
 
+    #main-carousel-mobile {
+      display: none;
+    }
+
+    @media screen and (max-width: 576px) {
+      #main-carousel {
+        display: none;
+      }
+
+      #main-carousel-mobile {
+        width: 100%;
+        display: block;
+      }
+    }
   </style>
 </head>
 
@@ -173,30 +187,51 @@
   </div>
 
   <!-- Swiper -->
-  <div class="container-fluid px-lg-4 mt-4">
-    <div class="swiper mySwiper rounded-3">
+  <div class="container-fluid px-sm-4 px-0 mt-sm-4 mt-0">
+    <div class="swiper mySwiper rounded-3" id="main-carousel">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="images/carousel/1.png" class="w-100 d-block"/>
+          <img src="images/carousel/1.png" class="w-100 d-block" />
         </div>
         <div class="swiper-slide">
-          <img src="images/carousel/2.png" class="w-100 d-block"/>
+          <img src="images/carousel/2.png" class="w-100 d-block" />
         </div>
         <div class="swiper-slide">
-          <img src="images/carousel/3.png" class="w-100 d-block"/>
+          <img src="images/carousel/3.png" class="w-100 d-block" />
         </div>
         <div class="swiper-slide">
-          <img src="images/carousel/4.png" class="w-100 d-block"/>
+          <img src="images/carousel/4.png" class="w-100 d-block" />
         </div>
         <div class="swiper-slide">
-          <img src="images/carousel/5.png" class="w-100 d-block"/>
+          <img src="images/carousel/5.png" class="w-100 d-block" />
         </div>
         <div class="swiper-slide">
-          <img src="images/carousel/6.png" class="w-100 d-block"/>
+          <img src="images/carousel/6.png" class="w-100 d-block" />
         </div>
       </div>
     </div>
+
+    <!-- mobile-view-carousel -->
+    <div class="swiper mySwiper" id="main-carousel-mobile">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/mobile-carousel/1.jpg" class="w-100 d-block" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/mobile-carousel/2.jpg" class="w-100 d-block" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/mobile-carousel/3.jpg" class="w-100 d-block" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/mobile-carousel/4.jpg" class="w-100 d-block" />
+        </div>
+      </div>
+    </div>
+
+
   </div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
