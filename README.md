@@ -6,7 +6,7 @@
 - Manage bookings - modify or cancel bookings
 - Give review and ratings of booked rooms & its services
 - User login and registration
-- Progile management
+- Profile management
 - Online payment (Paytm payment gateway)
 
 ## Admin End
