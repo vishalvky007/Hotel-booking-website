@@ -27,8 +27,23 @@
       margin: 0;
     }
 
+    /* Mobile-carousel */
     #main-carousel-mobile {
       display: none;
+    }
+
+    .custom-bg {
+      background-color:  #2ec1ac;
+    }
+    .custom-bg:hover {
+      background-color:  #279e8c;
+    }
+
+    .availability-form {
+      margin-top: -50px;
+      position: relative;
+      z-index: 2;
+      opacity: 90%;
     }
 
     @media screen and (max-width: 576px) {
@@ -40,7 +55,13 @@
         width: 100%;
         display: block;
       }
+
+      .availability-form {
+        margin-top: -60px;
+        opacity: 90%;
+      }
     }
+
   </style>
 </head>
 
@@ -155,7 +176,7 @@
                 </div>
                 <div class="col-md-12 p-0 mb-3">
                   <label class="form-label">Address</label>
-                  <textarea class="form-control" row="2"></textarea>
+                  <textarea class="form-control shadow-none" row="2"></textarea>
                 </div>
                 <div class="col-md-6 ps-0 mb-3">
                   <label class="form-label">Pincode</label>
@@ -186,8 +207,9 @@
     </div>
   </div>
 
-  <!-- Swiper -->
+  <!-- Carousel -->
   <div class="container-fluid px-sm-4 px-0 mt-sm-4 mt-0">
+    <!-- main-carousel -->
     <div class="swiper mySwiper rounded-3" id="main-carousel">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -211,7 +233,7 @@
       </div>
     </div>
 
-    <!-- mobile-view-carousel -->
+    <!-- mobile view main-carousel -->
     <div class="swiper mySwiper" id="main-carousel-mobile">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -232,6 +254,50 @@
 
   </div>
 
+  <!-- Check availability form -->
+  <div class="container availability-form">
+    <div class="row mx-md-0 mx-4">
+      <div class="col-lg-12 bg-white shadow p-4 rounded">
+        <h5 class="mb-4 text-md-start text-center">Check Booking Availability</h5>
+        <form>
+          <div class="row align-items-end">
+            <div class="col-lg-3 mb-3">
+              <label class="form-label" style="font-weight: 500;">Check-in</label>
+              <input type="date" class="form-control shadow-none">
+            </div>
+            <div class="col-lg-3 mb-3">
+              <label class="form-label" style="font-weight: 500;">Check-out</label>
+              <input type="date" class="form-control shadow-none">
+            </div>
+            <div class="col-lg-3 mb-3">
+              <label class="form-label" style="font-weight: 500;">Adult</label>
+              <select class="form-select shadow-none" aria-label="Default select example">
+                <option selected >Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-lg-2 mb-3">
+              <label class="form-label" style="font-weight: 500;">Children</label>
+              <select class="form-select shadow-none" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-lg-1 mb-lg-3 mt-2">
+              <button type="submit" class="btn text-white shadow-none custom-bg">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br>
+  <br><br><br>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
