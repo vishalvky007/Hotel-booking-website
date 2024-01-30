@@ -1,0 +1,31 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h-font {
+    font-family: 'Merienda', cursive;
+}
+
+/* Code to hide input type=number spin-button */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+/* Mobile-carousel */
+#main-carousel-mobile {
+    display: none;
+}
+
+.custom-bg {
+    background-color: #2ec1ac;
+    border: 1px solid #2ec1ac;
+}
+
+.custom-bg:hover {
+    background-color: #279e8c;
+    border: 1px solid #279e8c;
+}
