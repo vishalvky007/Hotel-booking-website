@@ -5,8 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Paradise</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/common.css">
@@ -43,7 +46,8 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="index.php">Paradise</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -66,11 +70,13 @@
         </ul>
         <div class="d-flex">
           <!-- Button trigger Login modal -->
-          <button type="button" class="btn btn-outline-dark me-lg-3 me-2" data-bs-toggle="modal" data-bs-target="#loginModal">
+          <button type="button" class="btn btn-outline-dark me-lg-3 me-2" data-bs-toggle="modal"
+            data-bs-target="#loginModal">
             Login
           </button>
           <!-- Button trigger Register modal -->
-          <button type="button" class="btn btn-outline-dark me-lg-2 me-3" data-bs-toggle="modal" data-bs-target="#registerModal">
+          <button type="button" class="btn btn-outline-dark me-lg-2 me-3" data-bs-toggle="modal"
+            data-bs-target="#registerModal">
             Register
           </button>
         </div>
@@ -79,7 +85,8 @@
   </nav>
 
   <!-- Login Modal -->
-  <div class="modal fade" id="loginModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="loginModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <form>
@@ -111,7 +118,8 @@
   </div>
 
   <!-- Register Modal -->
-  <div class="modal fade" id="registerModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="registerModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <form>
@@ -440,7 +448,7 @@
     </div>
   </div>
 
-  <!-- Our Facilities --> 
+  <!-- Our Facilities -->
   <h2 class="mt-5 pt-4 mb-md-4 mb-2 text-center fw-bold">OUR FACILITIES</h2>
 
   <div class="container">
@@ -469,19 +477,186 @@
         <a href="#" class="btn btn-sm btn-dark rounded-2 fw-bold shadow-none">More Facilities >>></a>
       </div>
 
-      
+
     </div>
   </div>
 
-    <!-- Testimonials --> 
-  <h2 class="mt-5 pt-4 mb-md-4 mb-2 text-center fw-bold">OUR FACILITIES</h2>
+  <!-- Testimonials -->
+  <h2 class="mt-5 pt-4 mb-4 text-center fw-bold">TESTIMONIALS</h2>
 
-  
+  <div class="container mt-md-5">
+    <div class="swiper swiper-testimonials">
+      <div class="swiper-wrapper mb-5">
 
-  <br><br><br>
-  <br><br><br>
+        <div class="swiper-slide bg-white p-4">
+          <div class="profile d-flex align-items-center mb-3">
+            <img src="images/facilities/IMG_27079.svg" width="30px">
+            <h6 class="m-0 ms-2">Random user1</h6>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Architecto sit alias error quos laudantium unde
+            Lorem ipsum dolor sit amet.
+          </p>
+          <div class="rating">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+          </div>
+        </div>
+        <div class="swiper-slide bg-white p-4">
+          <div class="profile d-flex align-items-center mb-3">
+            <img src="images/facilities/IMG_27079.svg" width="30px">
+            <h6 class="m-0 ms-2">Random user1</h6>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Architecto sit alias error quos laudantium unde
+            Lorem ipsum dolor sit amet.
+          </p>
+          <div class="rating">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+          </div>
+        </div>
+        <div class="swiper-slide bg-white p-4">
+          <div class="profile d-flex align-items-center mb-3">
+            <img src="images/facilities/IMG_27079.svg" width="30px">
+            <h6 class="m-0 ms-2">Random user1</h6>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Architecto sit alias error quos laudantium unde
+            Lorem ipsum dolor sit amet.
+          </p>
+          <div class="rating">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+          </div>
+        </div>
+        <div class="swiper-slide bg-white p-4">
+          <div class="profile d-flex align-items-center mb-3">
+            <img src="images/facilities/IMG_27079.svg" width="30px">
+            <h6 class="m-0 ms-2">Random user1</h6>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Architecto sit alias error quos laudantium unde
+            Lorem ipsum dolor sit amet.
+          </p>
+          <div class="rating">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="col-lg-12 text-center mt-5">
+      <a href="#" class="btn btn-sm btn-dark rounded-2 fw-bold shadow-none">Know More >>></a>
+    </div>
+  </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!-- Reach us -->
+  <h2 class="mt-5 pt-4 mb-4 text-center fw-bold">REACH US</h2>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded">
+        <iframe class="w-100 rounded" height="320px"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60343.11301091681!2d77.20851048767955!3d28.660237124725395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1706626473002!5m2!1sen!2sin"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <div class="bg-white p-4 rounded mb-4">
+          <h5>Call us</h5>
+          <a href="tel: +919876543210" class="d-inline-block mb-2 text-decoration-none text-dark">
+            <i class="bi bi-telephone-fill text-primary"></i> +919876543210
+          </a>
+          <br>
+          <a href="tel: +919876543210" class="d-inline-block mb-2 text-decoration-none text-dark">
+            <i class="bi bi-telephone-fill text-success"></i> +91234567890
+          </a>
+        </div>
+        <div class="bg-white p-4 rounded mb-4">
+          <h5>Follow us</h5>
+          <a href="#" class="d-inline-block mb-3">
+            <span class="badge bg-light text-dark fs-6 p-2">
+              <i class="bi bi-twitter-x me-1"></i> Twitter
+            </span>
+          </a>
+          <br>
+          <a href="#" class="d-inline-block mb-3">
+            <span class="badge bg-light text-dark fs-6 p-2">
+              <i class="bi bi-facebook me-1"></i> Facebook
+            </span>
+          </a>
+          <br>
+          <a href="#" class="d-inline-block mb-3">
+            <span class="badge bg-light text-dark fs-6 p-2">
+              <i class="bi bi-instagram me-1"></i> Instagram
+            </span>
+          </a>
+          <br>
+          <a href="#" class="d-inline-block mb-3">
+            <span class="badge bg-light text-dark fs-6 p-2">
+              <i class="bi bi-whatsapp me-1"></i> WhatsApp
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container-fluid bg-white mt-5">
+    <div class="row">
+      <div class="col-lg-4 p-4">
+        <h3 class="h-font fw-bold fs-3 mb-2">Paradise Hotel</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Neque cum veniam ipsum iure, iusto deserunt quae, voluptatibus numquam
+          voluptatem quia eveniet corrupti,distinctio eligendi error architecto
+          fuga voluptatum ab expedita!</p>
+      </div>
+      <div class="col-lg-4 p-4">
+        <h5 class="mb-3">Links</h5>
+        <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Home</a> <br>
+        <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Rooms</a> <br>
+        <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Facilities</a> <br>
+        <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Contact us</a> <br>
+        <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">About</a> <br>
+      </div>
+      <div class="col-lg-4 p-4">
+        <h5 class="mb-3">Follow us</h5>
+        <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+          <i class="bi bi-twitter-x me-1"></i> Twitter
+        </a> <br>
+        <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+          <i class="bi bi-facebook me-1"></i> Facebook
+        </a> <br>
+        <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+          <i class="bi bi-instagram me-1"></i> Instagram
+        </a> <br>
+        <a href="#" class="d-inline-block text-dark text-decoration-none">
+          <i class="bi bi-whatsapp me-1"></i> WhatsApp
+        </a> <br>
+      </div>
+    </div>
+  </div>
+
+  <!-- Credits -->
+  <h6 class="text-center bg-dark text-white p-3 m-0">Designed and Developed by [Developer-Name/Firm/Company Pvt. Ltd.]</h6>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   <!-- Initialize Swiper -->
@@ -493,6 +668,42 @@
       autoplay: {
         delay: 3500,
         disableOnInteraction: false
+      },
+    });
+
+    var swiper = new Swiper(".swiper-testimonials", {
+      effect: "coverflow",
+      loop: true,
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "3",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+      },
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
+        640: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        }
       }
     });
   </script>
