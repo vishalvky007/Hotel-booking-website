@@ -490,7 +490,7 @@
 
         <div class="swiper-slide bg-white p-4">
           <div class="profile d-flex align-items-center mb-3">
-            <img src="images/facilities/IMG_27079.svg" width="30px">
+            <img src="images/facilities/user.png" width="30px">
             <h6 class="m-0 ms-2">Random user1</h6>
           </div>
           <p>
@@ -507,7 +507,7 @@
         </div>
         <div class="swiper-slide bg-white p-4">
           <div class="profile d-flex align-items-center mb-3">
-            <img src="images/facilities/IMG_27079.svg" width="30px">
+            <img src="images/facilities/user.png" width="30px">
             <h6 class="m-0 ms-2">Random user1</h6>
           </div>
           <p>
@@ -524,7 +524,7 @@
         </div>
         <div class="swiper-slide bg-white p-4">
           <div class="profile d-flex align-items-center mb-3">
-            <img src="images/facilities/IMG_27079.svg" width="30px">
+            <img src="images/facilities/user.png" width="30px">
             <h6 class="m-0 ms-2">Random user1</h6>
           </div>
           <p>
@@ -541,7 +541,7 @@
         </div>
         <div class="swiper-slide bg-white p-4">
           <div class="profile d-flex align-items-center mb-3">
-            <img src="images/facilities/IMG_27079.svg" width="30px">
+            <img src="images/facilities/user.png" width="30px">
             <h6 class="m-0 ms-2">Random user1</h6>
           </div>
           <p>
