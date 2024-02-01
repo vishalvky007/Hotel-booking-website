@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paradise - Home</title>
-  <?php require('include//links.php'); ?>
+  <title>Paradise - HOME</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <?php require('include//links.php'); ?>
   <style>
     .availability-form {
       margin-top: -50px;
