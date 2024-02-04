@@ -17,7 +17,7 @@
             <a class="nav-link me-2" href="facilities.php">Facilities</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link me-2" href="#">Contact us</a>
+            <a class="nav-link me-2" href="contact.php">Contact us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.php">About</a>
@@ -60,7 +60,7 @@
               <input type="password" class="form-control shadow-none">
             </div>
             <div class="d-flex align-items-center justify-content-between mb-2">
-              <button type="submit" class="btn btn-primary">Login</button>
+              <button type="submit" class="btn btn-primary">LOGIN</button>
               <a href="javascript: void(0)" class="text-secondary text-decoration-none">Forget Passoword?</a>
             </div>
           </div>
@@ -129,7 +129,7 @@
               </div>
             </div>
             <div class="text-center my-1">
-              <button type="submit" class="btn btn-success">Register</button>
+              <button type="submit" class="btn btn-success">REGISTER</button>
             </div>
 
           </div>
