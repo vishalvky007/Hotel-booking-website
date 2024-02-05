@@ -102,7 +102,7 @@
             </div>
             <div class="col-lg-3 mb-3">
               <label class="form-label" style="font-weight: 500;">Adult</label>
-              <select class="form-select shadow-none" aria-label="Default select example">
+              <select class="form-select shadow-none" aria-label="Default select example"> 
                 <option selected>Open this select menu</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
