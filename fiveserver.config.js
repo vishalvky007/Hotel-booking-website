@@ -1,7 +1,7 @@
 // fiveserver.config.js
 module.exports = {
     php: "/usr/bin/php",             // macOS/Ubuntu
-    open: "index.php",
+    open: "admin/admin.php",
     injectBody: true,     // enable live reloading
     remoteLogs: true,
     remoteLogs: "yellow",
